@@ -50,6 +50,17 @@ header .top a .logo img {
   width: 100%;
   height: 100%;
 }
+header .top .menu {
+  display: none;
+}
+@media only screen and (max-width: 376px) {
+  header .top .menu {
+    display: block;
+  }
+  header .top nav {
+    display: none !important;
+  }
+}
 header .top nav {
   display: flex;
   align-items: center;

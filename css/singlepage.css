@@ -56,6 +56,16 @@ header .top nav {
   justify-content: space-between;
   gap: 24px;
 }
+@media only screen and (max-width: 415px) {
+  header .top nav a {
+    display: none !important;
+  }
+  header .top nav .profile {
+    display: flex !important;
+    height: 20px;
+    width: 20px;
+  }
+}
 header .top nav a {
   transition: 0.1s;
 }
@@ -97,10 +107,6 @@ header .top nav .profile:hover {
   }
   #hero .wrapper .left ul {
     margin-bottom: 20px;
-  }
-  #hero .wrapper .left ul li:last-child {
-    text-overflow: ellipsis;
-    overflow: hidden;
   }
   #hero .wrapper .right .card {
     position: static !important;
@@ -365,6 +371,7 @@ header .top nav .profile:hover {
   gap: 24px;
   padding-bottom: 25px;
   border-bottom: 1px solid #e2e8f0;
+  overflow-x: scroll;
 }
 #discription .wrapper .selecet li {
   padding: 18px 36px;
