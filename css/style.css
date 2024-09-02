@@ -10,6 +10,10 @@
   border: none;
 }
 
+::-webkit-scrollbar {
+  display: none !important;
+}
+
 .container {
   padding: 15px 80px;
   margin: 0 auto;
