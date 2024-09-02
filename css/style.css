@@ -9,6 +9,9 @@
   padding: 0;
   border: none;
 }
+::-webkit-scrollbar{
+  display: none !important;
+}
 
 .container {
   padding: 15px 80px;
