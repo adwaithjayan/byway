@@ -44,6 +44,7 @@ header{
 
             a{
                 color: black;
+                cursor: pointer;
                 .logo{
                     display: flex;
                     align-items: center;
@@ -76,6 +77,7 @@ header{
                 gap: 24px;
                 a{
                     transition: .1s;
+                    cursor: pointer;
 
                     img{
                         color:$font-gblue;
@@ -163,7 +165,7 @@ header{
                     }
                 }
             }
-            h1{
+            h2{
                 font-weight: bold;
                 font-size: 40px;
                 line-height: 140%;
@@ -172,7 +174,7 @@ header{
                 
             }
             @media only screen and (max-width: 1024px){
-               h1{
+               h2{
                    max-width: 500px;
                 } 
                 p{
@@ -181,7 +183,7 @@ header{
                 
             }
             @media only screen and (max-width: 768px){
-               h1{
+               h2{
                    max-width: 350px;
                 } 
                 p{
@@ -838,6 +840,7 @@ header{
                 justify-content: space-between;
                 a{
                     display: block;
+                    cursor: pointer;
                     background: #94a3b8;
                     border-radius: 8px;
                     padding: 14px 24px;
@@ -941,6 +944,7 @@ header{
             }
             a{
                 color: $font-lblue;
+                cursor: pointer;
                 font-size: 14;
                 font-weight: 500;
                 line-height: 160%;
@@ -1047,6 +1051,7 @@ footer{
                 gap: 2px;
                 margin-bottom: 16px;
                 align-items: center;
+                cursor: pointer;
 
                 .logo{
                     display: flex;

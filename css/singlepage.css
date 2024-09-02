@@ -41,6 +41,7 @@ header .top {
 }
 header .top a {
   color: black;
+  cursor: pointer;
 }
 header .top a .logo {
   display: flex;
@@ -73,6 +74,7 @@ header .top nav {
 }
 header .top nav a {
   transition: 0.1s;
+  cursor: pointer;
 }
 header .top nav a img {
   color: #334155;
@@ -145,7 +147,7 @@ header .top nav .profile:hover {
 #hero .wrapper .left ul li:last-child {
   color: #2563eb;
 }
-#hero .wrapper .left h1 {
+#hero .wrapper .left h2 {
   font-weight: bold;
   font-size: 40px;
   line-height: 140%;
@@ -153,7 +155,7 @@ header .top nav .profile:hover {
   margin-bottom: 17px;
 }
 @media only screen and (max-width: 1024px) {
-  #hero .wrapper .left h1 {
+  #hero .wrapper .left h2 {
     max-width: 500px;
   }
   #hero .wrapper .left p {
@@ -161,7 +163,7 @@ header .top nav .profile:hover {
   }
 }
 @media only screen and (max-width: 768px) {
-  #hero .wrapper .left h1 {
+  #hero .wrapper .left h2 {
     max-width: 350px;
   }
   #hero .wrapper .left p {
@@ -760,6 +762,7 @@ header .top nav .profile:hover {
 }
 #testimonials .wrapper .top .arrow a {
   display: block;
+  cursor: pointer;
   background: #94a3b8;
   border-radius: 8px;
   padding: 14px 24px;
@@ -883,6 +886,7 @@ header .top nav .profile:hover {
 }
 #topcourse .wrapper .top a {
   color: #3b82f6;
+  cursor: pointer;
   font-size: 14;
   font-weight: 500;
   line-height: 160%;
@@ -993,6 +997,7 @@ footer .wraper .one a {
   gap: 2px;
   margin-bottom: 16px;
   align-items: center;
+  cursor: pointer;
 }
 footer .wraper .one a .logo {
   display: flex;
