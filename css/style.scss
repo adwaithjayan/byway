@@ -29,6 +29,8 @@ body{
 header{
     border-bottom:1px solid #e2e8f0;
     width: 100%;
+    font-family: "Inter", sans-serif;
+
 
     
         .top{
@@ -114,6 +116,7 @@ header{
 
 #hero{
     padding-bottom: 100px;
+    font-family: "Inter", sans-serif;
     .wrapper{
         display: flex;
         justify-content: space-between;
@@ -307,6 +310,7 @@ header{
 
 
 #review{
+    font-family: "Inter", sans-serif;
 
     background-color: #f8fafc;
     ul{
@@ -423,6 +427,8 @@ header{
 #topcategories{
    @include topBar();
     @include cards(24px 80px,300px);
+    font-family: "Inter", sans-serif;
+
     .box{
         display: flex;
         flex-direction: column;
@@ -458,6 +464,8 @@ header{
 
 #topcourse{
     @include topBar();
+    font-family: "Inter", sans-serif;
+
         .bottom{
             @include cards(16px,300px);
                     .imgcontainr{
@@ -530,6 +538,8 @@ header{
     padding-bottom: 60px;
     @include topBar();
     @include cards(16px,400px);
+    font-family: "Inter", sans-serif;
+
     .box{
         display: flex;
         flex-direction: column;
@@ -605,6 +615,8 @@ header{
     background: #f8fafc;
     padding-top: 60px;
     padding-bottom: 60px;
+    font-family: "Inter", sans-serif;
+
     .wrapper{
         display: flex;
         flex-direction:column;
@@ -764,6 +776,8 @@ header{
 #cat{
     padding-top: 60px;
     padding-bottom: 60px;
+    font-family: "Inter", sans-serif;
+
     .wraper{
         padding-inline: 80px;
         display: flex;
@@ -816,6 +830,8 @@ header{
 
 footer{
     background: #1e293b;
+    font-family: "Inter", sans-serif;
+
     .wraper{
         display: flex;
         justify-content: space-between;

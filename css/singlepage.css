@@ -28,6 +28,7 @@ body {
 header {
   border-bottom: 1px solid #e2e8f0;
   width: 100%;
+  font-family: "Inter", sans-serif;
 }
 header .top {
   display: flex;
@@ -93,6 +94,7 @@ header .top nav .profile:hover {
 }
 
 #hero {
+  font-family: "Inter", sans-serif;
   background-color: #f8fafc;
   padding-top: 40px;
 }
@@ -344,6 +346,7 @@ header .top nav .profile:hover {
 #discription {
   background: #fff;
   max-width: 65%;
+  font-family: "Inter", sans-serif;
 }
 @media only screen and (max-width: 768px) {
   #discription {
@@ -555,6 +558,7 @@ header .top nav .profile:hover {
 
 #review {
   padding-bottom: 17px;
+  font-family: "Inter", sans-serif;
 }
 #review .wrapper {
   padding: 24px 0;
@@ -725,6 +729,7 @@ header .top nav .profile:hover {
   background: #f8fafc;
   padding-top: 60px;
   padding-bottom: 60px;
+  font-family: "Inter", sans-serif;
 }
 #testimonials .wrapper {
   display: flex;
@@ -852,6 +857,7 @@ header .top nav .profile:hover {
   padding: 115px 0;
   background-color: white;
   padding-top: 60px;
+  font-family: "Inter", sans-serif;
 }
 #topcourse .wrapper {
   display: flex;
@@ -965,6 +971,7 @@ header .top nav .profile:hover {
 
 footer {
   background: #1e293b;
+  font-family: "Inter", sans-serif;
 }
 footer .wraper {
   display: flex;

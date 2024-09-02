@@ -30,6 +30,8 @@ body{
 header{
     border-bottom:1px solid #e2e8f0;
     width: 100%;
+    font-family: "Inter", sans-serif;
+
 
     
         .top{
@@ -107,6 +109,8 @@ header{
 
 
 #hero{
+    font-family: "Inter", sans-serif;
+
     background-color: #f8fafc;
     padding-top: 40px;
     @media only screen and (max-width:426px){
@@ -379,6 +383,8 @@ header{
 #discription{
     background: #fff;
     max-width: 65%;
+    font-family: "Inter", sans-serif;
+
     @media only screen and (max-width: 768px){
         max-width: 100%;
     }
@@ -592,6 +598,8 @@ header{
 
 #review{
     padding-bottom: 17px;
+    font-family: "Inter", sans-serif;
+
     .wrapper{
         padding: 24px 0;
         h2{
@@ -803,6 +811,8 @@ header{
     background: #f8fafc;
     padding-top: 60px;
     padding-bottom: 60px;
+    font-family: "Inter", sans-serif;
+
     .wrapper{
         display: flex;
         flex-direction:column;
@@ -944,6 +954,8 @@ header{
 #topcourse{
     padding: 115px 0;
     @include topBar();
+    font-family: "Inter", sans-serif;
+
         .bottom{
             @include cards(16px,300px);
                     .imgcontainr{
@@ -1015,6 +1027,8 @@ header{
 
 footer{
     background: #1e293b;
+    font-family: "Inter", sans-serif;
+
     .wraper{
         display: flex;
         justify-content: space-between;

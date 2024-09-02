@@ -9,9 +9,6 @@
   padding: 0;
   border: none;
 }
-::-webkit-scrollbar{
-  display: none !important;
-}
 
 .container {
   padding: 15px 80px;
@@ -31,6 +28,7 @@ body {
 header {
   border-bottom: 1px solid #e2e8f0;
   width: 100%;
+  font-family: "Inter", sans-serif;
 }
 header .top {
   display: flex;
@@ -105,6 +103,7 @@ header .top nav .button-invert:hover {
 
 #hero {
   padding-bottom: 100px;
+  font-family: "Inter", sans-serif;
 }
 #hero .wrapper {
   display: flex;
@@ -282,6 +281,7 @@ header .top nav .button-invert:hover {
 }
 
 #review {
+  font-family: "Inter", sans-serif;
   background-color: #f8fafc;
 }
 #review ul {
@@ -337,6 +337,7 @@ header .top nav .button-invert:hover {
 #topcategories {
   background-color: white;
   padding-top: 60px;
+  font-family: "Inter", sans-serif;
 }
 #topcategories .wrapper {
   display: flex;
@@ -415,6 +416,7 @@ header .top nav .button-invert:hover {
 #topcourse {
   background-color: white;
   padding-top: 60px;
+  font-family: "Inter", sans-serif;
 }
 #topcourse .wrapper {
   display: flex;
@@ -528,6 +530,7 @@ header .top nav .button-invert:hover {
   padding-bottom: 60px;
   background-color: white;
   padding-top: 60px;
+  font-family: "Inter", sans-serif;
 }
 #topTeacher .wrapper {
   display: flex;
@@ -650,6 +653,7 @@ header .top nav .button-invert:hover {
   background: #f8fafc;
   padding-top: 60px;
   padding-bottom: 60px;
+  font-family: "Inter", sans-serif;
 }
 #testimonials .wrapper {
   display: flex;
@@ -774,6 +778,7 @@ header .top nav .button-invert:hover {
 #cat {
   padding-top: 60px;
   padding-bottom: 60px;
+  font-family: "Inter", sans-serif;
 }
 #cat .wraper {
   padding-inline: 80px;
@@ -921,6 +926,7 @@ header .top nav .button-invert:hover {
 
 footer {
   background: #1e293b;
+  font-family: "Inter", sans-serif;
 }
 footer .wraper {
   display: flex;
